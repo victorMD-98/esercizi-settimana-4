@@ -1,0 +1,125 @@
+/* header */
+header{
+    width: 82%;
+    float: right;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color:#752305 ;
+}
+header div{
+    background-color: #fef7e2;
+    border-radius: 25px;
+    width: 14em;
+    height: 15.5em;
+    text-align: center;
+}
+div img{
+    width: 100%;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
+div p{
+    color:#752305 ;
+    font-size:0.7em;
+    
+}
+div p b{
+    font-size: small;
+    position: relative;
+    right: 1.3em;
+}
+div p span{
+    position: relative;
+    left: 2.5em;
+    bottom: 0.4em;
+    font-size: small;
+}
+
+p+button{
+    margin: auto;
+    width: 65% ;
+    background-color: #ffdf7f;
+    color:#752305 ;
+    border-radius: 30px;
+    height: 2em;
+    font-weight: 700;
+    border: none;
+}
+#clear{
+    clear: both;
+}
+/* main */
+main{
+    width: 81%;
+    float: right;
+    position: absolute;
+    bottom: 0px;
+    right: 0.8em;
+}
+h2{
+    color:#752305 ;
+}
+article{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fef7e2;
+    color:#752305 ;
+    padding: 1em;
+    border-radius: 10px;
+}
+article div{
+    width: 38em;
+    height: 100%;
+    background-color: #fef7e2;
+}
+h3{
+    margin: 0;
+    margin-left: 1em;
+}
+
+h3+p{
+    font-size: 1em;
+    margin-left: 1em;
+}
+#news img{
+    border-radius: 0;
+}
+/* nav */
+nav{
+    width: 15%;
+    height: 100%;
+    background-color: #fef7e2;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+nav form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+button img{
+    width: 30px;
+}
+button{
+    margin: auto;
+    width: 80% ;
+    background-color: #ffdf7f;
+    color:#752305 ;
+    border-radius: 30px;
+    margin-top: 1em;
+    height: 5em;
+    font-weight: 700;
+    border: none;
+}
+#shop span{
+    font-size: 1.7em;
+    vertical-align: top;
+    margin-left: 8%;
+}
+/* footer */
+
